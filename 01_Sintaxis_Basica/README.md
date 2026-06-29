@@ -8,9 +8,7 @@ En este módulo se abordan los componentes elementales de un programa en Java. C
 
 ### El Método Principal: `public static void main(String[] args)`
 En Java, toda aplicación ejecutable debe contener obligatoriamente este método. Es conocido como el **punto de entrada** (*entry point*). Cuando ordenas a la computadora ejecutar tu programa, la Máquina Virtual de Java (JVM) busca exactamente esta línea para saber por dónde empezar a leer el código.
-
 ###Ejemplo 
-
 ```java
 public class EstructuraMinima {
     public static void main(String[] args) {
@@ -29,6 +27,7 @@ En Java, el tipado es **estático y fuerte**, lo que significa que debes declara
 Los tipos primitivos son aquellos que vienen integrados directamente en el lenguaje y almacenan valores puros (no son objetos):
 
 *   **`int` (Entero):** Almacena números enteros sin decimales (ej. `23`, `-5`, `100`). Utiliza 32 bits de memoria.
+
 ###Ejemplo de int (Entero):
 ```java
 public class EjemploEntero {
