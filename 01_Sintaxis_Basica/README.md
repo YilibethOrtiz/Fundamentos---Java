@@ -11,6 +11,7 @@ En Java, toda aplicación ejecutable debe contener obligatoriamente este método
 
 ###Ejemplo 
 
+```java
 public class EstructuraMinima {
     public static void main(String[] args) {
         // Aquí adentro va todo el código que quieres que se ejecute
@@ -29,6 +30,7 @@ Los tipos primitivos son aquellos que vienen integrados directamente en el lengu
 
 *   **`int` (Entero):** Almacena números enteros sin decimales (ej. `23`, `-5`, `100`). Utiliza 32 bits de memoria.
 ###Ejemplo de int (Entero):
+```java
 public class EjemploEntero {
     public static void main(String[] args) {
         int cantidadEstudiantes = 45;
@@ -41,7 +43,7 @@ public class EjemploEntero {
 ---   
 *   **`double` (Decimal de doble precisión):** Se usa para números con punto decimal (ej. `19.5`, `3.1416`). Es el estándar para cálculos precisos.
 ### Ejemplo de double (Decimales):
-
+```java
 public class EjemploDecimal {
     public static void main(String[] args) {
         double notaExamen = 19.5;
@@ -55,7 +57,7 @@ public class EjemploDecimal {
 ---
 *   **`boolean` (Booleano):** Solo puede almacenar uno de dos valores posibles: `true` (verdadero) o `false` (falso). Es la base de la lógica condicional.
 ##Ejemplo de boolean:
-
+```java
 public class EjemploBooleano {
     public static void main(String[] args) {
         boolean claseFinalizada = false;
@@ -70,7 +72,7 @@ public class EjemploBooleano {
 
 *   **`char` (Carácter):** Almacena un único carácter o símbolo utilizando comillas simples (ej. `'A'`, `'7'`, `'#'`).
 ##Ejemplo de char:
-
+```java
 public class EjemploCaracter {
     public static void main(String[] args) {
         char seccionUniversidad = 'A';
@@ -85,7 +87,7 @@ public class EjemploCaracter {
 
 > ⚠️ **Nota importante sobre `String`:** A diferencia de los anteriores, `String` (Cadena de texto) **no es un tipo primitivo**, sino una Clase en Java. Se utiliza para almacenar texto estructurado (ej. `"Hola Mundo"`) y siempre se escribe con la primera **S** en mayúscula y comillas dobles.
 ##Ejemplo String:
-
+```java
 public class EjemploTexto {
     public static void main(String[] args) {
         String universidad = "Universidad Bolivariana de Venezuela";
