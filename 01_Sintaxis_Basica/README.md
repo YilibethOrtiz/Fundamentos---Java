@@ -18,7 +18,7 @@ public class EstructuraMinima {
         System.out.println("¡Punto de entrada activado!");
     }
 }
-
+```
 ---
 ### ¿Qué es una Variable?
 Desde una perspectiva técnica, una **variable** es un espacio reservado en la memoria RAM de la computadora al que se le asigna un nombre (identificador) y un tipo de dato específico. Sirve para almacenar datos temporalmente durante la ejecución del programa.
@@ -40,6 +40,7 @@ public class EjemploEntero {
         System.out.println("Año del curso: " + añoActual);
     }
 }
+```
 ---   
 *   **`double` (Decimal de doble precisión):** Se usa para números con punto decimal (ej. `19.5`, `3.1416`). Es el estándar para cálculos precisos.
 ### Ejemplo de double (Decimales):
@@ -53,7 +54,7 @@ public class EjemploDecimal {
         System.out.println("Temperatura actual: " + temperaturaMaracaibo + "°C");
     }
 }
-
+```
 ---
 *   **`boolean` (Booleano):** Solo puede almacenar uno de dos valores posibles: `true` (verdadero) o `false` (falso). Es la base de la lógica condicional.
 ##Ejemplo de boolean:
@@ -67,7 +68,7 @@ public class EjemploBooleano {
         System.out.println("¿Está inscrito?: " + tieneInscripcion);
     }
 }
-
+```
 ---
 
 *   **`char` (Carácter):** Almacena un único carácter o símbolo utilizando comillas simples (ej. `'A'`, `'7'`, `'#'`).
@@ -82,7 +83,7 @@ public class EjemploCaracter {
         System.out.println("La inicial de tu nombre es: " + inicialNombre);
     }
 }
-
+```
 ---  
 
 > ⚠️ **Nota importante sobre `String`:** A diferencia de los anteriores, `String` (Cadena de texto) **no es un tipo primitivo**, sino una Clase en Java. Se utiliza para almacenar texto estructurado (ej. `"Hola Mundo"`) y siempre se escribe con la primera **S** en mayúscula y comillas dobles.
@@ -97,7 +98,7 @@ public class EjemploTexto {
         System.out.println("Carrera: " + carrera);
     }
 }
-
+```
 ---
 
 ## 💻 2. Código Explicado Paso a Paso
